@@ -1,0 +1,122 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+@font-face {
+  font-family: "Tangerine-Bold";
+  src: url("/fonts/Tangerine-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Bentham-Regular";
+  src: url("/fonts/Bentham-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Muli-Light";
+  src: url("/fonts/Muli-Light.ttf");
+}
+
+.tangerine-bold {
+  font-family: "Tangerine-Bold", sans-serif !important;
+}
+
+.bentham-regular {
+  font-family: "Bentham-Regular", "Times New Roman", Times, serif;
+}
+
+.muli-light {
+  font-family: "Muli-Light", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-family: "Muli-Light", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  z-index: 999;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bentham-Regular", "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-size: 2.75rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2.25rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.75rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+}
+
+.hero-banner {
+  position: relative;
+  min-height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-banner .hero-content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-banner .hero-content .hero-text h1 {
+  font-size: 3rem;
+  color: white;
+  font-weight: 500;
+}
+
+.line-divider {
+  height: 3px;
+  width: 150px;
+  background: black;
+}
+
+.carousel-slider .react-multiple-carousel__arrow {
+  background: transparent !important;
+}
+
+.carousel-slider .react-multiple-carousel__arrow::before {
+  color: #000 !important;
+  font-size: 45px;
+}
+
+button:focus {
+  outline: none !important;
+}
